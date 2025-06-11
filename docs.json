@@ -11,40 +11,15 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Platform",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": ["index", "quickstart", "development"]
+            "group": "General",
+            "pages": ["index", "pm", "team"]
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": ["api-reference/introduction"]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "Guides",
+            "pages": ["guides/ios", "guides/android"]
           }
         ]
       }
@@ -52,26 +27,26 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Polymtrade",
+          "href": "https://polym.trade",
+          "icon": "chart-area"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Buy $PT",
+          "href": "https://jup.ag/tokens/3BWA5RBXyPXuMGZmVL8Snefu573FMJNGpsVi79baiBLV",
+          "icon": "coin"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "X.com",
+          "href": "https://x.com/polymtrade",
+          "icon": "x-twitter"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [
@@ -79,15 +54,11 @@
         "label": "Support",
         "href": "mailto:support@polym.trade"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
+      "website": "https://polym.trade",
       "x": "https://x.com/polymtrade"
     }
   }
