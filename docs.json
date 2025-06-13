@@ -15,7 +15,7 @@
         "groups": [
           {
             "group": "General",
-            "pages": ["index", "pm", "team"]
+            "pages": ["index", "pm", "team", "roadmap"]
           },
           {
             "group": "Guides",
