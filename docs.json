@@ -16,10 +16,6 @@
           {
             "group": "General",
             "pages": ["index", "pm", "team", "roadmap"]
-          },
-          {
-            "group": "Guides",
-            "pages": ["guides/ios", "guides/android"]
           }
         ]
       }
@@ -51,8 +47,19 @@
   "navbar": {
     "links": [
       {
+        "label": "iOS",
+        "href": "https://testflight.apple.com/join/B2j7bpbF",
+        "icon": "apple"
+      },
+      {
+        "label": "Android",
+        "href": "https://polym.trade/polymtrade.apk",
+        "icon": "android"
+      },
+      {
         "label": "Support",
-        "href": "mailto:support@polym.trade"
+        "href": "mailto:support@polym.trade",
+        "icon": "envelope"
       }
     ]
   },
